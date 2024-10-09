@@ -15,7 +15,7 @@ const Features = () => {
         </p>
       </div>
       <div className="h-fit w-full mt-4 md:mt-10 mb-4 flex justify-center">
-        <div className="grid grid-cols-3 grid-rows-2 mt-10 max-md:grid-cols-1 max-md:grid-rows-6 gap-4 p-4">
+        <div className="grid grid-cols-3 grid-rows-2 mt-10 max-md:grid-cols-1 max-md:grid-rows-6 gap-4 p-4 xl:w-[54vw] xl:h-[32vw]">
           <FeatureCard
             img="/assets/6564e2c76b65ef6388d3bc7b_Advanced-Analytics.svg"
             title="AI-Powered Personal Insights"

@@ -23,7 +23,7 @@ const Brands = () => {
   }, []);
 
   return (
-    <section className="scroll-container max-sm:pt-32 h-[16vh] w-full flex  items-center overflow-x-hidden">
+    <section id="features" className="scroll-container max-sm:pt-32 h-[16vh] w-full flex  items-center overflow-x-hidden">
       <BrandItems imgStr="/assets/655c8df46f05caded08e715f_omorpho-logo-white.svg" />
       <BrandItems imgStr="/assets/655c8df4d420afca151b85bf_caraway-logo-white.svg" />
       <BrandItems imgStr="/assets/655c8df4de5826ea705fa03a_Itsaugust-logo-white.svg" />

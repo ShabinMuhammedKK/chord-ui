@@ -32,7 +32,7 @@ const HeroContent = () => {
               loop
             >
               <source
-                src="/public/assets/7947395-hd_1920_1080_30fps.mp4"
+                src="assets/3129595-uhd_3840_2160_30fps.mp4"
                 type="video/mp4"
               />
             </video>

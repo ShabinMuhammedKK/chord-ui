@@ -2,17 +2,19 @@ import { RiBarChartFill } from "@remixicon/react";
 
 const Header = () => {
   return (
-    <div className="flex justify-center mt-2">
-      <header className="fixed w-full md:w-9/12 bg-gray-300 bg-opacity-5 rounded-full ">
+    <div className="flex justify-center  mt-2">
+      <header className="fixed z-50 w-full md:w-9/12 bg-gray-300 bg-opacity-5 backdrop-blur-sm rounded-full ">
         <main className="px-4 py-4 flex justify-between items-center">
           <div className="flex justify-center items-center gap-2 cursor-pointer">
             <RiBarChartFill size={32} color="white" />
             <h1 className="font-medium text-xl">Chord</h1>
           </div>
           <nav className="max-sm:hidden  flex flex-1 justify-center gap-3 xl:gap-10 text-sm  font-light text-neutral-300">
+            <a href="#features">
             <ul className="hover:text-white transition-all cursor-pointer">
               Features
             </ul>
+            </a>
             <ul className="hover:text-white transition-all cursor-pointer">
               Resources
             </ul>
