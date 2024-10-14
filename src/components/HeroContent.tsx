@@ -67,7 +67,7 @@ const HeroContent = () => {
                 <h1 className="">$1,250,460</h1>
               </div>
               <div>
-                <p className="text-green-500">+268%</p>
+                <p className="text-green-500 sm:hidden">+268%</p>
               </div>
             </div>
           </div>
